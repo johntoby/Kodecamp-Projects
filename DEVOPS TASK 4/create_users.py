@@ -30,4 +30,3 @@ def create_user(username, group):
 for user, group in users.items():
     create_group(group)
     create_user(user, group)
-S
