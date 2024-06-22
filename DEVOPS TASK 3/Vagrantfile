@@ -1,0 +1,28 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# Vagrantfile
+Vagrant.configure("2") do |config|
+
+  # Web Server VM
+  config.vm.define "web" do |web|
+    web.vm.box = "ubuntu/focal64"
+    web.vm.hostname = "web"
+    web.vm.network "private_network", ip: "192.168.33.10"
+    web.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+    end
+    web.vm.provision "shell", path: "web_server.sh"
+  end
+
+  # DB Server VM
+  config.vm.define "db" do |db|
+    db.vm.box = "ubuntu/focal64"
+    db.vm.hostname = "db"
+    db.vm.network "private_network", ip: "192.168.33.11"
+    db.vm.provider "virtualbox" do |vb|
+      vb.memory = "2048"
+    end
+    db.vm.provision "shell", path: "db_server.sh"
+  end
+end

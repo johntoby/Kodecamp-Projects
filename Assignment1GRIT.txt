@@ -1,0 +1,38 @@
+Introduction:
+
+ My name is John Idowu. I’m currently working as a Pharmaceutical Sales Manager, a career I’ve been doing for the past 10 years in Abuja. 3 years ago, I decided to switch my career to tech. I started by learning the fundamentals, including Linux O/S, Windows servers, Networking, familiarity with the cloud (AWS & GCP). I even have AWS CCP and 2 GCP certifications. I am now ready to specialize in DevOps which is why I applied to the KodeCamp program. 
+
+
+My Goal for the KodeCamp program – My Goal is to be able to master DevOps tools and methodologies during this 4 months, and be able to successfully deploy end-to-end CI/CD pipelines on any cloud provider, and also have at least 5 solid projects on my GitHub account which I can show to prospective employers. 
+
+
+Why Achieving this goal is important to me – I need to change my life, and escape this rat race I am currently in. I need to be there for my wife, and beautiful daughter, and give them a better life. I believe a DevOps career will enable me to achieve that. 
+
+
+
+Obstacles on this journey – The major obstacle I might face is missing live classes, which will tend to compound my work later, and missing out on asking questions in class. I have cleared my schedule for the 2 days of live classes, and I plan to attend at least 90% of the classes. Another obstacle is I might face is losing concentration along the way, and I plan to achieve this by being active on the Discord channel and helping others. By doing this, I will increase my commitment to the program and the team. 
+
+
+
+Support systems in place – My wife is very supportive, and she in fact pushed me to join this Bootcamp. She has always believed I will make an excellent DevOps engineer, and I plan not to disappoint her. Also, I just got Airtel 5G Router with unlimited data, so network issues will no longer a problem for me. 
+
+
+
+Action Plan to achieve my goal – 
+1.	Attend all live classes. If I miss any class, watch the video the following day. Never miss 2 classes consecutively, and never fail to watch a missed class before the next class. 
+
+2.	Consistency – I plan to devote at least 2 hours everyday to personal learning and practice. This will help me practice what we learnt in class, do any assignments I was given, and try things out on my own. I have stated this already, and hope to continue throughout the duration of the bootcamp. Like Angela Duckworth said, Grit is passion and perseverance for very long-term goals. This DevOps is my long term goal, and I plan to passionately devote my time and energy into it. 
+
+
+3.	Writing and journaling – I plan to write about my experience during this bootcamp on my medium, and share across my LinkedIn and twitter accounts. After learning a technology, or tool, or finishing a project, I will blog about it and share my journey with the world. 
+
+4.	Networking with my team members – The guys in the DevOps group are very active on the discord channel, and I plan to network with as many of them as possible. This way, I can help those struggling, and reach out for help when I am struggling. 
+
+
+5.	Deploy a project every month – The bootcamp is four months, thus I plan to deploy at least one project per month. Thus, at the end of the program, I should have at least 4 solid projects in my github. 
+
+6.	Create a portfolio page – I plan to create a portfolio page which will be hosted on AWS to showcase my skills at the end of the bootcamp. 
+
+
+
+These are my plans for the BOOTCAMP. Thanks. 

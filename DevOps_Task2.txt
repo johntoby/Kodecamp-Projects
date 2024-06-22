@@ -1,0 +1,115 @@
+DEVOPS TASK 2  - SUBMITTED BY JOHN IDOWU
+
+
+Task 1 = Create the following new users for the organization: 
+
+$ sudo -i (to switch to root user)
+
+# useradd Andrew
+# useradd Julius
+# useradd Chizi
+# useradd Jennifer
+# useradd Adeola
+# useradd Bach
+# useradd Gozie
+# useradd Ogochukwu
+
+# cat /etc/passwd (to confirm if users have been successfully created) 
+
+
+Task 2 - Create Groups 
+
+# groupadd HR
+# groupadd Sales
+# groupadd Business
+# groupadd Management
+# groupadd IT
+# groupadd Finance
+#groupadd Legal 
+
+# getent group (to confirm groups have been created) 
+
+Task 3 - Add users to groups 
+
+# usermod -aG IT Andrew
+# usermod -aG IT Gozie
+# usermod -aG HR Chizi
+# usermod -aG Sales Jennifer
+# usermod -aG Business Adeola
+# usermod -aG Management Bach
+# usermod -aG Finance Ogochukwu
+# usermod -aG Legal Julius
+
+#getent group ( to confirm if users have been added to the groups successfully) 
+
+
+
+Task 4 - Create company directories for storing files, documents and information 
+
+# mkdir Finance_Budgets Contract_Documents Business_Projections Business_Models Employee_Data Company_Vision_And_Mission_Statement Server_Configuration_Script
+
+
+
+
+Task 5 - Assign the right Group  Access to the directories 
+
+This is the breakdown of how I will assign the directories to the company groups: 
+Finance Budgets - Finance, Management
+Contract Documents - Legal, Management 
+Business Projections - Sales, Business, Management 
+Business Models - Sales, Business, Management 
+Employee Data - HR, Management 
+Company Vision and Mission Statement - HR, Management 
+Server Configuration Script - IT, Management 
+
+I am using setfacl (set file access control list) to set the file permission to their respective groups 
+
+# setfacl -m g:Management:rwx ./Finance_Budgets/
+# setfacl -m g:Finance:rwx ./Finance_Budgets/
+# setfacl -m g:Management:rwx ./Contract_Documents/
+# setfacl -m g:Legal:rwx ./Contract_Documents/
+# setfacl -m g:Sales:rwx ./Business_Projections/
+# setfacl -m g:Business:rwx ./Business_Projections/
+# setfacl -m g:Management:rwx ./Business_Projections/
+# setfacl -m g:Management:rwx ./Business_Models/
+# setfacl -m g:Sales:rwx ./Business_Models/
+# setfacl -m g:Business:rwx ./Business_Models/
+# setfacl -m g:HR:rwx ./Employee_Data/
+# setfacl -m g:Management:rwx ./Employee_Data/
+# setfacl -m g:Management:rwx ./Company_Vision_And_Mission_Statement/
+# setfacl -m g:HR:rwx ./Company_Vision_And_Mission_Statement/
+# setfacl -m g:IT:rwx ./Server_Configuration_Script/
+# setfacl -m g:Management:rwx ./Server_Configuration_Script/
+
+To confirm if the right group has been added to the directories, I used: 
+#getfacl Finance_Budgets/
+
+
+Task 6 - Set the right permissions on each directory. User can rwx, Group can rwx, Others cannot rwx 
+
+
+# chmod 777 Finance_Budgets/
+# chmod 770 Finance_Budgets/
+# chmod 770 Contract_Documents/
+#  chmod 770 Business_Projections/
+# chmod 770 Business_Models/
+# chmod 770 Employee_Data/
+# chmod 770 Company_Vision_And_Mission_Statement/
+# chmod 770 Server_Configuration_Script/
+
+
+To confirm if the right permissions settings have been applied, use: 
+# ls -l 
+
+
+
+
+The end. 
+
+
+
+
+
+
+
+
