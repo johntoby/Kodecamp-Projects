@@ -2,14 +2,14 @@ import subprocess
 
 # Define users and their groups
 users = {
-    "Andrew": "System Administrator",
+    "Andrew": "IT",
     "Julius": "Legal",
-    "Chizi": "Human Resource Manager",
-    "Jeniffer": "Sales Manager",
-    "Adeola": "Business Strategist",
-    "Bach": "CEO",
-    "Gozie": "IT intern",
-    "Ogochukwu": "Finance Manager"
+    "Chizi": "HR",
+    "Jeniffer": "Sales",
+    "Adeola": "Business",
+    "Bach": "Management",
+    "Gozie": "Intern",
+    "Ogochukwu": "Finance"
 }
 
 # Function to create a group
